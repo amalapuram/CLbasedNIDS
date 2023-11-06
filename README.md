@@ -44,14 +44,24 @@ To run baselines implemented in the Avalanche, you must run the file containing 
  ## Hyperparameter tuning
 
  To change the Hyperparameters, you need to make the changes in the configurations.py file located in codebase/utils/config/
- for example, to change the batch size of the cifar10 experiments, you need to change line in configurations.py 
+ for example, to change the batch size of the cifar10 experiments, you need to change the line in configurations.py 
 
 " root.cifar10.batch_size = 128"  
 
 
 
 
-
-
+# Citation
+Please cite this work in case you are referring to our work
+```
+@inproceedings{
+amalapuram2023augmented,
+title={Augmented Memory Replay-based Continual Learning Approaches for Network Intrusion Detection},
+author={Suresh kumar Amalapuram and Sumohana S. Channappayya and Bheemarjuna Tamma},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=yGLokEhdh9}
+}
+```
 
 
