@@ -16,11 +16,10 @@ The preprocessed datasets can be downloaded from the [link](https://iith-my.shar
 The shared link contains preprocessed datasets (Network Intrusion Detection, Computer Vision, and Anomaly Detection) used in our work. Specifically, computer vision datasets are processed in such a way that a class imbalance ratio (Attack: Benign) of **1:100** is maintained per task. For more information on how datasets are preprocessed and how tasks are created, we encourage reading sections **A.4, A.5, and A.6** of the supplementary material of our paper available at [link](https://openreview.net/attachment?id=yGLokEhdh9&name=supplementary_material)
 ## Extracting datasets files
 
-1. Preprocessed datasets can be downloaded from this link
-2. unzip the preprocessed datasets.zip files
-3. copy each dataset folder into the "datasets" directory in the **codebase** directory
+1. unzip the preprocessed datasets.zip files
+2. copy each dataset folder into the "datasets" directory in the **codebase** directory
 
-##  Mapping the dataset files to code .
+##  Mapping the dataset files to code.
 In case you face any issues while reading the dataset files, please set the appropriate dataset file path in the "metadata.py" file located in the codebase/utils directory.
 
 For example, to set the correct dataset file path for the cifar10 dataset, configure the "path" key in  the metadata_dict_cifar10 dictionary in the metadata.py file.
